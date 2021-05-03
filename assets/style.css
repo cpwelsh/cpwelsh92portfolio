@@ -101,15 +101,18 @@ section {
     flex: 1;
     flex-wrap: wrap;
     min-height: 100px;
-    background-color: red;
     justify-content: center;
+    align-items: center;
 }
 
 .portfolio-row figure {
     min-height: 100px;
     background-color: brown;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 #Contact .portfolio {
