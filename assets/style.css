@@ -1,0 +1,131 @@
+header {
+    background-color:wheat;
+    border-color:black;
+    border-width: 10px;
+    border-style:solid;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: wheat;
+}
+h1,h2,h3,h4,h5,p,a {
+    font-family: Arial, Helvetica, sans-serif;
+    color:dodgerblue;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 25px;
+    margin-right: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: black;
+    
+}
+
+nav a {
+    margin-right: 80px;
+    text-decoration: none;
+}
+
+/*bio style starts here */
+
+.aboutMe {
+    background-color:wheat;
+
+}
+
+/*bio stlye ends here */
+
+section {
+    display: flex;
+    padding: 25px;
+}
+
+.section-body {
+    flex: 5;
+    margin-left: 40px;
+    display: flex;
+}
+
+.section-title {
+    flex: 1;
+    border-right: solid black 4px;
+}
+
+.portfolio {
+    display:block;
+}
+
+.project-main {
+    flex: 1;
+    background-color:wheat;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: black;
+}
+
+.portfolio a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.portfolio-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    width: 100%;
+    background-image: url("images/hero-bg.jpg");
+}
+
+.portfolio-main a {
+    color: black;
+    font-size: 50px;
+}
+
+.portfolio-sub {
+    
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    min-height: 100px;
+    background-color: red;
+    justify-content: center;
+}
+
+.portfolio-row figure {
+    min-height: 100px;
+    background-color: brown;
+    flex-grow: 1;
+}
+
+
+#Contact .portfolio {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 1044px) {
+    header h1 {
+        margin: 20px;
+    }
+
+}
+
+.portfolio-row {
+    flex-direction:row;
+    width: 100%;
+}
